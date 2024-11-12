@@ -50,7 +50,7 @@ function allFieldsfull(){
 }
 //reset game btn
 resetBtn.addEventListener('click', function(){
-  for(let i =0; i <cells.length ; i++){
+  for(let i =0; i < cells.length ; i++){
     cells[i].innerText = '';
 cells[i].disabled = false;
   }
